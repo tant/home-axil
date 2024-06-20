@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
+import { Sen } from "next/font/google";
 import "./globals.css";
 
 import Header from "@/components/Header";
@@ -20,6 +21,13 @@ const fontSans = FontSans({
   variable: "--font-sans",
 });
 
+const Josef = Sen({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap"
+});
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -27,7 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={fontSans.variable}>
+      <body className={Josef.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

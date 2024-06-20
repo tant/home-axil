@@ -5,11 +5,11 @@ import Link from "next/link";
 
 
 const links = [
-  { path: '/', name: 'Trang chủ',},
-  { path: '/about', name: 'Giới thiệu',},
-  { path: '/gallery', name: 'Thư viện',},
-  { path: '/projects', name: 'Dự án',},
-  { path: '/contact', name: 'Liên hệ',},
+  { path: '/', name: 'Home',},
+  { path: '/about', name: 'About',},
+  { path: '/gallery', name: 'gallery',},
+  { path: '/projects', name: 'Projects',},
+  { path: '/contact', name: 'contact',},
 ]
 
 interface NavProps {

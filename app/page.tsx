@@ -1,9 +1,23 @@
-import Image from "next/image";
+import AboutComponent from "@/components/AboutComponent";
+import CatalogSwiperSection from "@/components/CatalogSwiperSection";
+import CatalogueSection from "@/components/CatalogueSection";
+import CompanySection from "@/components/CompanySection";
+import Footer from "@/components/Footer";
+import HeroSection from "@/components/HeroSection";
+import ReviewSection from "@/components/ReviewSection";
+
 
 export default function Home() {
   return (
     <main>
-      Trang chu ne
+      <HeroSection/>
+      <CompanySection/>
+      <AboutComponent/>
+      <CatalogueSection/>
+      <CatalogSwiperSection/>
+      <ReviewSection/>
+      <Footer/>
+      
     </main>
   );
 }
