@@ -43,7 +43,7 @@ const pageAbout = () => {
             <h1 className="text-4xl font-bold tracking-wider text-center uppercase">Team</h1>
           </div>
           
-          <div className="grid py-8">
+          <div className="grid py-8 gap-20 lg:grid-cols-3">
             {/* nguoi 1 */}
             <div className="border-2 border-primary">
               <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-tertiary -m-0.5 transition hover:-translate-y-3 hover:-translate-x-3">
@@ -54,6 +54,7 @@ const pageAbout = () => {
                 </p>
               </div>
             </div>
+
             {/* nguoi 2 */}
             <div className="border-2 border-primary">
               <div className="p-4 text-center bg-gray-100 aspect-square dark:bg-tertiary -m-0.5 transition hover:-translate-y-3 hover:-translate-x-3">
