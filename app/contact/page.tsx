@@ -86,7 +86,7 @@ export default function Contact() {
             <Button type="submit" 
               className="flex w-full items-center px-8 py-3 text-white rounded-full shadow-lg hover:bg-gray-80 hover:ring-2 hover:ring-gray-950 ring-offset-2"
             >
-              Let's talk <TbArrowUpRight className="w-5 h-5 ml-2"/>
+              Let&apos;s talk <TbArrowUpRight className="w-5 h-5 ml-2"/>
             </Button>
           </div>
         </div>

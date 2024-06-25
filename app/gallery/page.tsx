@@ -5,49 +5,49 @@ const page = () => {
     <div className='container py-10 grid grid-cols-2 md:grid-cols-4 gap-4'>
       <div className='flex flex-col gap-4'>
         <div>
-          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/bedroom.jpg"></img>
+          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/bedroom.jpg" alt=""></img>
         </div>
         <div>
-          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery2.jpg"></img>
+          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery2.jpg" alt=""></img>
         </div>
         <div>
-          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery.jpg"></img>
-        </div>
-      </div>
-
-      <div className='flex flex-col gap-4'>
-        <div>
-          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/swiper1.jpg"></img>
-        </div>
-        <div>
-          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery11.jpg"></img>
-        </div>
-        <div>
-          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/living.jpg"></img>
+          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery.jpg" alt=""></img>
         </div>
       </div>
 
       <div className='flex flex-col gap-4'>
         <div>
-          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery14.jpg"></img>
+          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/swiper1.jpg" alt=""></img>
         </div>
         <div>
-          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery15.jpg"></img>
+          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery11.jpg" alt=""></img>
         </div>
         <div>
-          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery12.jpg"></img>
+          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/living.jpg" alt=""></img>
         </div>
       </div>
 
       <div className='flex flex-col gap-4'>
         <div>
-          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery7.jpg"></img>
+          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery14.jpg" alt=""></img>
         </div>
         <div>
-          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery11.jpg"></img>
+          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery15.jpg" alt=""></img>
         </div>
         <div>
-          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery3.jpg"></img>
+          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery12.jpg" alt=""></img>
+        </div>
+      </div>
+
+      <div className='flex flex-col gap-4'>
+        <div>
+          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery7.jpg" alt=""></img>
+        </div>
+        <div>
+          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery11.jpg" alt=""></img>
+        </div>
+        <div>
+          <img className='h-auto max-w-full rounded-lg hover:scale-90 transition-all' src="/image/gallery3.jpg" alt=""></img>
         </div>
       </div>
 
